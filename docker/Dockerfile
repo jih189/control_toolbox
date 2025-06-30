@@ -167,10 +167,10 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 #   cmake --build . && \
 #   cmake --install .
 
-RUN cd $COPPELIASIM_ROOT_DIR/programming/zmqRemoteApi/clients/cpp && \
-  mkdir build && cd build && \
-  cmake -DCMAKE_BUILD_TYPE=Release .. && \
-  cmake --build . && \
-  cmake --install .
+# RUN cd $COPPELIASIM_ROOT_DIR/programming/zmqRemoteApi/clients/cpp && \
+#   mkdir build && cd build && \
+#   cmake -DCMAKE_BUILD_TYPE=Release .. && \
+#   cmake --build . && \
+#   cmake --install .
 
 RUN mkdir -p $HOME/planner
