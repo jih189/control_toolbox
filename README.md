@@ -37,4 +37,5 @@ make
 ##
 In the following sections, I provide the tutorial to run different controllers for different purpose in the sim
 
-1. [run timmer](tutorial/SIM_TIMER_README.md)
+1. [run timmer](tutorial/sim_timer/README.md)
+2. [load scene](tutorial/load_scene/README.md)
