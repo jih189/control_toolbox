@@ -8,12 +8,12 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 add_subdirectory(third/zmqRemoteApi/clients/cpp)
 
 # Add your executable
-add_executable(my_client src/example.cpp)
+add_executable(sim_timer src/sim_timer.cpp)
 
-# Set include directories (correct target!)
-target_include_directories(my_client PRIVATE
+# Set include directories
+target_include_directories(sim_timer PRIVATE
     third/zmqRemoteApi/clients/cpp
 )
 
 # Link against their provided target
-target_link_libraries(my_client PRIVATE RemoteAPIClient)
+target_link_libraries(sim_timer PRIVATE RemoteAPIClient)
