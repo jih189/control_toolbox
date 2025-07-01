@@ -6,7 +6,7 @@ int main()
     auto sim = client.getObject().sim();
 
     // Load the robot from file
-    std::string scenePath = "/root/planner/tutorial/load_scene/Franka.ttt";
+    std::string scenePath = "/root/planner/coppeliaSimClient/scene/Franka.ttt";
     sim.loadScene(scenePath);
 
     sim.setStepping(true);

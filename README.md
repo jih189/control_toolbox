@@ -39,3 +39,4 @@ In the following sections, I provide the tutorial to run different controllers f
 
 1. [run timmer](tutorial/sim_timer/README.md)
 2. [load scene](tutorial/load_scene/README.md)
+2. [joint-space pid controller](tutorial/jointspace_pid_controller/README.md)
